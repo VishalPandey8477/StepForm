@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Jersey+10:regular);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    /* border: 0.4px solid red; */
+    color: white;
+}
+
+body {
+    background-image: url(../images/resultBackground.jpg);
+    background-size: cover;
+}
+
+.tag {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ans {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.4rem;
+    font-weight: 700;
+    /* color: rgb(83, 86, 86); */
+
+}
+
+.printedData {
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(77, 133, 186, 0.2);
+}

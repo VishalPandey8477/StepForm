@@ -1,0 +1,72 @@
+* {
+    /* border: 1px solid red; */
+    /* color: white; */
+}
+
+
+.carousel-fade .carousel-item {
+    transition-duration: 2s;
+}
+
+label {
+    color: white;
+}
+
+body {
+    background-image: url(../images/backgroundImage.jpg);
+    background-size: cover;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.stepForm {
+    border: 2px solid rgb(45, 41, 41);
+    background-color: rgb(45, 41, 41, 0.2);
+    border-radius: 10px;
+}
+
+.firstForm,
+.secondForm,
+.thirdForm {
+    height: 580px;
+}
+
+.leftCaro,
+.rightCaro {
+    /* border: 1px solid red; */
+    width: 7px;
+}
+
+.uploadDocument {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+#indianStates,
+#nepalStates,
+#chinaStates {
+    display: none;
+}
+
+button {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 5px;
+    padding: 1.3% 3%;
+    margin: 2%;
+}
+
+.error {
+    color: red;
+    padding-left: 1%;
+    font-weight: 800;
+    /* background-color: rgb(0, 0, 0, 0.7); */
+    visibility: hidden;
+}
